@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import ChartWrapper from './ChartWrapper.jsx';
+import GenderDropdown from './GenderDropdown';
+import Navbar from 'react-bootstrap/Navbar';
+import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './index.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            gender: 'men'
+        };
+    }
+
+    genderSelected = evt => {
+        const gender = evt.target.text.split(' ')[1].toLowerCase();
+        this.setState({ gender });
+    };
+    render() {
+        return (
+            <div className='App'>
+                <Navbar expand='lg' variant='light' bg='light'>
+                    <Container>
+                        <Navbar.Brand href='#'>Barchartly</Navbar.Brand>
+                    </Container>
+                </Navbar>
+                <Container>
+                    <Row>
+                        <Col xs={12}>
+                            <GenderDropdown handleSelect={this.genderSelected} />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12}>
+                            <ChartWrapper gender={this.state.gender} />
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+        );
+    }
 }
 
 export default App;

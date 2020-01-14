@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,QACI,YAAa,CACb,sBACJ,CAEA,UACI,aACJ","file":"main.9a9d7085.chunk.css","sourcesContent":[".col-12 {\n    display: flex;\n    justify-content: center;\n}\n\n.dropdown {\n    margin: 20px 0;\n}\n"]}

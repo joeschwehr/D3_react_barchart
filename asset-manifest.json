@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/D3_react_barchart/static/css/main.9a9d7085.chunk.css",
+    "main.js": "/D3_react_barchart/static/js/main.7f0b9288.chunk.js",
+    "main.js.map": "/D3_react_barchart/static/js/main.7f0b9288.chunk.js.map",
+    "runtime-main.js": "/D3_react_barchart/static/js/runtime-main.d651d96d.js",
+    "runtime-main.js.map": "/D3_react_barchart/static/js/runtime-main.d651d96d.js.map",
+    "static/js/2.47d2fd6a.chunk.js": "/D3_react_barchart/static/js/2.47d2fd6a.chunk.js",
+    "static/js/2.47d2fd6a.chunk.js.map": "/D3_react_barchart/static/js/2.47d2fd6a.chunk.js.map",
+    "index.html": "/D3_react_barchart/index.html",
+    "precache-manifest.7c77ef4e84def19139235c4e4f4c8b1a.js": "/D3_react_barchart/precache-manifest.7c77ef4e84def19139235c4e4f4c8b1a.js",
+    "service-worker.js": "/D3_react_barchart/service-worker.js",
+    "static/css/main.9a9d7085.chunk.css.map": "/D3_react_barchart/static/css/main.9a9d7085.chunk.css.map",
+    "static/js/2.47d2fd6a.chunk.js.LICENSE": "/D3_react_barchart/static/js/2.47d2fd6a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d651d96d.js",
+    "static/js/2.47d2fd6a.chunk.js",
+    "static/css/main.9a9d7085.chunk.css",
+    "static/js/main.7f0b9288.chunk.js"
+  ]
+}
